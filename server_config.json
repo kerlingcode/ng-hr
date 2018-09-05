@@ -14,7 +14,10 @@
       ]
     },
     "streamSettings": {
-      "network": "ws"
+      "network": "ws",
+      "wsSettings": {
+        "path": "/HR-PATH"
+      }
     }
   },
   "outbound": {
