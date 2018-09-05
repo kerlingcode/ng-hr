@@ -9,6 +9,6 @@ chmod +x v2ray v2ctl
 
 sed -i "s/your_uuid/$UUID/g" config.json
 sed -i "s|HR_PORT|$PORT|g"  /etc/nginx/conf.d/default.conf
-#sed -i "s|path_1|$path_1|g"  /etc/nginx/conf.d/default.conf
 
+nohup ./v2ray &
 nginx -g "daemon off;"
