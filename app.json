@@ -1,0 +1,22 @@
+{
+  "name": "ng-hr",
+  "description": "deploy nginx to Heroku.",
+  "keywords": ["ng-hr"],
+  "env": {
+    "VER": {
+       "description": "v2 version ",
+       "value": "3.37"
+     }, 
+    "UUID": {
+       "description": "UUID",
+       "value": "8fd6dadc-0d59-4ae7-93bb-e6b8a231c2c2"
+     },
+    "V2RAY_RAY_BUFFER_SIZE": {
+       "description": "每个连接的缓存大小，单位MB",
+       "value": "10"
+     }
+  },
+  "website": "https://github.com/wangyi2005/ng-hr",
+  "repository": "https://github.com/wangyi2005/ng-hr",
+  "stack": "container"
+ }
