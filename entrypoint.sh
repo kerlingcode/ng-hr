@@ -8,7 +8,9 @@ mv /v2ray/v2ray-v$VER-linux-64/geosite.dat .
 chmod +x v2ray v2ctl
 
 sed -i "s/your_uuid/$UUID/g" config.json
+sed -i "s/your_path/$HR-PATH/g" config.json
 sed -i "s|HR_PORT|$PORT|g"  /etc/nginx/conf.d/default.conf
+sed -i "s|your_path|$HR-PATH|g"  /etc/nginx/conf.d/default.conf
 
 nohup ./v2ray &
 nginx -g "daemon off;"
