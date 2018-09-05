@@ -16,7 +16,7 @@
     "streamSettings": {
       "network": "ws",
       "wsSettings": {
-        "path": "/HR-PATH"
+        "path": "/your-path"
       }
     }
   },
