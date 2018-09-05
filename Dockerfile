@@ -9,10 +9,7 @@ COPY server_config.json /v2ray/config.json
 
 RUN apk add ca-certificates curl \
  && chmod +x /entrypoint.sh \
- && chmod g+rwx /var/cache/nginx /var/run /var/log/nginx /etc/nginx/conf.d \
- && chgrp -R root /var/cache/nginx \
- && addgroup nginx root
+ && chmod g+rwx /var/cache/nginx /var/run /var/log/nginx /etc/nginx/conf.d 
 
 CMD /entrypoint.sh
 
-USER nginx
