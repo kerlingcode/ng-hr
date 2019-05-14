@@ -4,11 +4,11 @@
   "keywords": ["ng-hr"],
   "env": {
     "VER": {
-       "description": "v2 version ",
+       "description": "v2ray version",
        "value": "4.18.0"
      }, 
     "UUID": {
-       "description": "uuid",
+       "description": "vmess user uuid",
        "value": "8fd6dadc-0d59-4ae7-93bb-e6b8a231c2c2"
      },
     "HRPATH": {
