@@ -17,7 +17,7 @@
     "protocol": "vmess",
     "settings": {
       "vnext": [{
-        "address": "#########",
+        "address": "####.herokuaoo.com",
         "port": 443,
         "users": [{
           "id": "#################",
